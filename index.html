@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOL-TECH PORTFOLIO</title>
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="logo"><span class="lo">B</span>ol-Tech.</h1>
+            <ul id="sidemenu">
+                <li class="li1"><a href="#header">Home</a></li>
+                <li class="li1"><a href="#about">About</a></li>
+                <li class="li1"><a href="#services">Services</a></li>
+                <li class="li1"><a href="#portfolio">Portfolio</a></li>
+                <li class="li1"><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    <div class="header-text">
+        <p>Front End Developer</p>
+        <h1>Hi, I'm <span>Faleye</span><br> Bolu From Africa</h1>
+    </div> 
+   </div>
+</div>
+
+
+<!-- <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="images/about.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p>
+                    I am working as a front end developer for several years having strong command over html,css,reactjs,react native,scss, bootstrap, foundation and other html css frameworks.
+
+                    My work is fully responsive and all device compatible including desktops and real devices</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                </ul> 
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021 - Current</span><br>UI/UX Design Training at GL Institute</li>
+                    <li><span>2020 - 2021</span><br>Team Lead at Bafuto ICT.</li>
+                    <li><span>2017 - 2019</span><br>Front End Developer at Ken Digital Ltd.</li>
+                </ul>
+            </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2017</span><br>UI/UX Design Training at GL Institute</li>
+                <li><span>2017</span><br>BSC from FUTA Akure.</li>
+                <li><span>2016</span><br>HND from IT Abuja.</li>
+            </ul>
+        </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="images/about.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p>
+                    I am working as a front end developer for several years having strong command over html,css,reactjs,react native,scss, bootstrap, foundation and other html css frameworks.
+
+                    My work is fully responsive and all device compatible including desktops and real devices</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="showHideUsers()">Skills</p>
+                <p class="tab-links " onclick="showHideUser()">Experience</p>
+                <p class="tab-links" onclick="showHideUse()">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                </ul> 
+            </div>
+            <div class="tab-content hide" id="experience">
+                <ul>
+                    <li><span>2021 - Current</span><br>UI/UX Design Training at GL Institute</li>
+                    <li><span>2020 - 2021</span><br>Team Lead at Bafuto ICT.</li>
+                    <li><span>2017 - 2019</span><br>Front End Developer at Ken Digital Ltd.</li>
+                </ul>
+            </div>
+        <div class="tab-conten hide" id="education">
+            <ul>
+                <li><span>2017</span><br>UI/UX Design Training at GL Institute</li>
+                <li><span>2017</span><br>BSC from FUTA Akure.</li>
+                <li><span>2016</span><br>HND from IT Abuja.</li>
+            </ul>
+        </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Design</h2> 
+            <p>I'm a web designer and I have several years of experience in designing lots of templates for different clients.</p>
+            <a href="https://t.me/business_strictly">Learn More</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2> 
+                <p>I have designed over 100+ products for various teams and startups.</p>
+                <a href="https://t.me/business_strictly">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2> 
+                    <p>Having great screenshots leads to more downloads. I am here to give you the best quality screenshots with high resolutions. Having a good first impression drives a higher conversion rate for downloads.</p>
+                    <a href="https://t.me/business_strictly">Learn More</a>
+                    </div>
+        </div>
+    </div>
+</div>
+<!-- ========Portfolio========== -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/a1.jpg" height="250">
+                <div class="layer">
+                    <h3>Alajode Website</h3>
+                    <p>Welcome to Alajode, a responsible travel blog that isn’t just about travel. </p>
+                    <a href="https://www.alajode.com/africa-travel-blogs/#destinations"><i class="far fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/a2.jpg" height="250">
+                <div class="layer">
+                    <h3>CryptoNewsZ</h3>
+                    <p>CryptoNewsZ is a reliable and independent news publication that has been run by cryptocurrency and blockchain experts.</p>
+                    <a href="https://www.cryptonewsz.com/gambling/betting/sportsbook/ripple/"><i class="far fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/a3.jpg" height="250">
+                <div class="layer im3">
+                    <h3>Travel & Destinations </h3>
+                    <p>On this travel website you'll find ideas and inspiration on where to go, travel tips, photography and lots more.</p>
+                    <a href="https://www.travelanddestinations.com/"><i class="far fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/a4.png" height="250">
+                <div class="layer im4">
+                    <h3> Digidragonz</h3>
+                    <p>Mission is to create the adventure of a lifetime for our holders.</p>
+                    <a href="https://digidragonz.com/"><i class="far fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/a5.jpg" height="250">
+                <div class="layer">
+                    <h3> Stoner Sharks</h3>
+                    <p>The Stoner Sharks is a collection of 10,000 unique NFT’s which aim to give back to various communities mainly in the underwater wildlife space while making it’s pieces have the maximum amount of value.</p>
+                    <a href="https://stonersharks.io/"><i class="far fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/a6.jpg" height="250">
+                <div class="layer">
+                    <h3> LipsOfLove</h3>
+                    <p>Lips of Love is a collection of 11,059 unique, quirky, Pop Art Pussies created to empower women and fight for an end to female genital mutilation.</p>
+                    <a href="https://lipsoflove.io/"><i class="far fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/a7.png" height="250">
+                <div class="layer">
+                    <h3> Crypto Golf</h3>
+                    <p>GOLF ON THE
+                        BLOCKCHAIN.
+                        PLAY MORE.
+                        EARN MORE.</p>
+                    <a href="https://cryptogolf.io/#home"><i class="far fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/a8.jpg" height="250">
+                <div class="layer">
+                    <h3> SSW</h3>
+                    <p>We are an intergalatic consortium of humans and robots working to decentralize NFTs and provide a greater future for artists across the universe.</p>
+                    <a href="https://www.screensaver.world/"><i class="far fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/a9.png" height="250">
+                <div class="layer">
+                    <h3> KPS CHAUHAN DY/DX</h3>
+                    <p>The app connects you to the talented people aroungd the world. Download it from play store</p>
+                    <a href="https://play.google.com/store/apps/details?id=co.classplus.dydx"><i class="far fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/a10.png" height="250">
+                <div class="layer">
+                    <h3> Skye Wallet App</h3>
+                    <p>Skye Wallet offers our users a very easy and user-friendly experience to enable even newbies have access to own cryptocurrency.</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.skyewallet.skye_wallet"><i class="far fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/a11.jpg" height="250">
+                <div class="layer">
+                    <h3> Crypto Dads</h3>
+                    <p>CryptoDads NFT World: Beta is live for holders! Jump in & start earning $WRLD today!</p>
+                    <a href="https://cryptodadsnft.com/"><i class="far fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/a12.jpg" height="250">
+                <div class="layer">
+                    <h3> Museum Art</h3>
+                    <p>Museum is a generative NFT project that shines light on the historic, artistic, and cultural significance of NFT art..</p>
+                    <a href="https://www.museum-refined.art/"><i class="far fa-external-link-alt"></i></a>
+                </div>
+            </div>
+             
+        </div>
+        <a href="https://t.me/business_strictly" class="btn">Ask More</a>
+    </div>
+</div>
+
+ <!-- ==============contact============= -->
+ 
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>bolufaleye09@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+234 701 687 7870</p>
+            <div class="social-icons">
+               <a href="https://wa.me/qr/message/25136FVQBEPJO1"> <i class="fab fa-whatsapp-square"></i></a>
+               <a href="https://www.instagram.com/trustedmarketer01/"> <i class="fab fa-instagram"></i></a>
+               <a href="https://t.me/business_strictly"> <i class="fab fa-telegram"></i></a>
+            </div>
+            <a href="images/Front End Developer.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Bol-Tech. Made with<i class="fas fa-heart"></i> </p>
+    </div>
+</div>
+
+
+<script>
+
+    // var tablinks = document.getElementsByClassName("tab-links");
+    // var tabcontents = document.getElementsByClassName("tab-contents");
+
+    // function opentab(tabname){
+    //     for(tablink of tablinks){
+    //         tablink.classlist.remove("active-link");
+    //     }
+    //     for(tabcontent of tabcontents){
+    //         tabcontent.classlist.remove("active-tab");
+    //     }
+    //     event.currentTarget.classlist.add("active-link");
+    //     document.getElementById(tabname).classList.add("active-tab");
+
+        
+     
+    // }
+
+let a = document.querySelector(".tab-contents");
+function showHideUsers() {
+    a.classList.toggle("hide")
+}
+
+let b = document.querySelector(".tab-content");
+function showHideUser() {
+    b.classList.toggle("hide")
+}
+let c = document.querySelector(".tab-conten");
+function showHideUse() {
+    c.classList.toggle("hide")
+}
+
+
+</script> 
+
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<!-- =========script for google sheet=========== -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzRC6VWIE5HAYv4LNXeEFvYQWigCRyCcpq2yYn6Esl-MB5cr4vCqwG0F2i1yAboTFHc/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },3000 )
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
